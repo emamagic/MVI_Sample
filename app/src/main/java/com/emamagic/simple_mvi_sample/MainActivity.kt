@@ -8,8 +8,8 @@ import androidx.activity.viewModels
 import androidx.core.view.isVisible
 import androidx.lifecycle.lifecycleScope
 import com.emamagic.simple_mvi_sample.databinding.ActivityMainBinding
-import com.emamagic.simple_mvi_sample.mvi3.MainContract
-import com.emamagic.simple_mvi_sample.mvi3.MainViewModel
+import com.emamagic.simple_mvi_sample.mvi_coroutines.MainContract
+import com.emamagic.simple_mvi_sample.mvi_coroutines.MainViewModel
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 

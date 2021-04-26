@@ -1,4 +1,4 @@
-package com.emamagic.simple_mvi_sample.mvi2
+package com.emamagic.simple_mvi_sample.mvi_live_data
 
 class MyViewModel: MVIBaseViewModel<MainViewState ,MainViewEffect ,MainViewEvent>() {
 

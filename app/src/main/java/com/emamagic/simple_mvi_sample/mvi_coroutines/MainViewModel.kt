@@ -1,4 +1,4 @@
-package com.emamagic.simple_mvi_sample.mvi3
+package com.emamagic.simple_mvi_sample.mvi_coroutines
 
 import androidx.lifecycle.viewModelScope
 import dagger.hilt.android.lifecycle.HiltViewModel

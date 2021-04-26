@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Simple_MVI_Sample">
         <activity android:name=".SecondActivity"></activity>
-        <activity android:name=".mvi2.MyActivity" />
+        <activity android:name=".mvi_live_data.MyActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

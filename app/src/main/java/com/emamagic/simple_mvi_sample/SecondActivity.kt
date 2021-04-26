@@ -2,7 +2,7 @@ package com.emamagic.simple_mvi_sample
 
 import android.os.Bundle
 import androidx.activity.viewModels
-import com.emamagic.simple_mvi_sample.mvi2.*
+import com.emamagic.simple_mvi_sample.mvi_live_data.*
 
 class SecondActivity : MVIBaseActivity<MainViewState ,MainViewEffect ,MainViewEvent ,MyViewModel>() {
 
