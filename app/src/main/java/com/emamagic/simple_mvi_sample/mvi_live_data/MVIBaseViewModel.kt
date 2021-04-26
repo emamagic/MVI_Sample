@@ -12,9 +12,11 @@ abstract class MVIBaseViewModel<ViewState, ViewEffect, ViewEvent> :
 
 
     private val _viewStates: MutableLiveData<ViewState> = MutableLiveData()
+    /** It called in view */
     fun viewStates(): LiveData<ViewState> = _viewStates
 
     private var _viewState: ViewState? = null
+    /** It called in viewModel */
     protected var viewState: ViewState
         get() = _viewState
             ?: throw UninitializedPropertyAccessException(

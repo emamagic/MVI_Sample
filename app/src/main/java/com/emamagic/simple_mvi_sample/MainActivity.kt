@@ -22,12 +22,11 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-
-        // mvi 3 ->
-
-        // Initialize Binding
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        // mvi coroutines  ->
+
 
         initObservers()
         binding.generateNumber.setOnClickListener {

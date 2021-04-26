@@ -12,7 +12,9 @@ class SecondActivity : MVIBaseActivity<MainViewState ,MainViewEffect ,MainViewEv
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_second)
 
-        // mvi 2 ->
+        // mvi liveData ->
+
+        viewModel.processEvent(MainViewEvent.FabClicked)
 
     }
 
